@@ -1,0 +1,17 @@
+name: FFA
+version: '${project.version}'
+main: p.ffa.FFA
+api-version: '1.19'
+commands:
+  unloadme:
+    description: "Unload yourself from FFA"
+    aliases: [unldme]
+  loadme:
+    description: "Load yourself into FFA with a specified kit and spawn"
+    aliases: [ ldme ]
+  ffa:
+    description: "FFA commandos"
+    usage: "/<command>"
+    aliases:
+      - futils
+      - ffautils
